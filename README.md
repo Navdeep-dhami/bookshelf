@@ -9,7 +9,7 @@
 
     1. Run `Composer install` to install dependency.
     2. Run `npm install`.
-    3. Run `npm run dev`.
+    3. Run `npm run dev` for development or `npm run build` for production.
     4. Copy and replace below detail into your .env file
     
     # mysql database connection
@@ -31,8 +31,9 @@
 If everything goes as expected you may find a list of products on the page. and a search box on the  top. you'll also see register and login links on the top that you can use to create an admin account as for now any account is by default is admin.
 
 1. if you are using the remote database given above an admin account is already created, you can access below account. 
-email : admin@user.in 
-password : password
+
+    email : admin@user.in 
+    password : password
 
 2. Add, Edit, Delete buttons are visible after login. 
 3. To search select the category from the dropdown and type in the input box and hit enter.
