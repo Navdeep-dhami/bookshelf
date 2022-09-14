@@ -90,7 +90,6 @@ class BookController extends Controller
      */
     public function store(BookFormRequest $request)
     {
-        dd('validation test');
         $imagePath = $request->image;
         $book = new Book();
         $book->title = $request->title;
@@ -138,7 +137,6 @@ class BookController extends Controller
      */
     public function update(BookFormRequest $request,Book $book)
     {
-        dd("validation test");
         $imagePath = $request->image;
         $book->title = $request->title;
         $book->description = $request->description;

@@ -8,23 +8,22 @@
     Setup command for first time installation:
 
     1. Run `Composer install` to install dependency.
-    2. Run `npm install` for Development.
-    3. Run `npm run dev` for Development.
+    2. Run `npm install`.
+    3. Run `npm run dev`.
     4. Copy and replace below detail into your .env file
-
-    # api key
-        APP_KEY=base64:M6L17OhGW2DVu3slfRv1n5c3V8qDeXJ3X1e4tLyMzpc=
     
     # mysql database connection
     1. save some time by connecting to a remote database
+        APP_KEY=base64:M6L17OhGW2DVu3slfRv1n5c3V8qDeXJ3X1e4tLyMzpc=
+        
         DB_CONNECTION=mysql
         DB_HOST=remotemysql.com
         DB_PORT=3306
         DB_DATABASE=Ob16rSmdxw
         DB_USERNAME=Ob16rSmdxw
         DB_PASSWORD=E6j4RTyVO4
-    2. you can also setup your local database and use laravel migration to start.
-    3. Also on local database you need to fetch data from api, use `yourdomain/fetch-data` url to fetch data.
+    2. you can also setup your local database and use laravel migration to start, and then generate key for your setup.
+    3. Also on local database you need to fetch data from api, use `{yourdomain}/fetch-data` url to fetch data.
 
 
 ## Learning application
